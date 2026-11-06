@@ -1,0 +1,14 @@
+{
+  "name": "Central Station",
+  "capacity": 3,
+  "bikes": [
+    {
+      "bike_id": "LIFE-002",
+      "available": true
+    },
+    {
+      "bike_id": "LIFE-001",
+      "available": true
+    }
+  ]
+}
