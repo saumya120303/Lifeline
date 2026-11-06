@@ -6,33 +6,10 @@ A Python course project.
 
 ```text
 LifeLine/
-├── src/lifeline/       # Application code
-├── tests/               # Automated tests
-├── pyproject.toml       # Project metadata and tool configuration
-└── README.md
+├── models.py       # classes, exceptions
+├── demo.py              # runs the story
+├── README.md       # 1 How to run: python demo.py, inside bikeshare/ 2 Concept map: concept · file: lines ·why 3 Who built which part
+└── station.json    # made by demo.py
 ```
 
 ## Getting started
-
-Create and activate a virtual environment, then install the project with
-development tools:
-
-```bash
-python -m venv .venv
-source .venv/bin/activate
-python -m pip install -e ".[dev]"
-```
-
-Run the application:
-
-```bash
-python -m lifeline.main
-```
-
-Run tests and linting:
-
-```bash
-pytest
-ruff check .
-```
-Python course project
