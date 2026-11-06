@@ -14,27 +14,4 @@ LifeLine/
 
 ## Getting started
 
-The project requires Python 3.11 or newer. From the repository root, run:
 
-```bash
-python demo.py
-```
-
-The demo rents and returns a bike, prints the station status, and writes the
-final station state to `station.json`.
-
-## Concept map
-
-| Concept | File | Why |
-| --- | --- | --- |
-| `Bike` | `models.py` | Represents a bike and whether it is available. |
-| `Station` | `models.py` | Owns bikes and enforces station capacity. |
-| Domain exceptions | `models.py` | Makes invalid rentals and returns explicit. |
-| Bike-share story | `demo.py` | Demonstrates the model workflow and persistence. |
-| JSON snapshot | `station.json` | Records the result produced by the demo. |
-
-## Contribution map
-
-The implementation is organized by responsibility: the domain model and its
-exceptions live in `models.py`, while the runnable story and JSON persistence
-live in `demo.py`. Git history identifies the contributor for each change.
