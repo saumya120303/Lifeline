@@ -13,31 +13,3 @@ LifeLine/
 ```
 
 ## How to run
-
-From the project directory:
-
-```bash
-python demo.py
-```
-
-The demo will be completed as part of M1.
-
-## Concept map
-
-The concept map will be completed after the M1 domain model is implemented.
-
-| Concept | File and lines | Why |
-|---|---|---|
-| Classes and dataclass | `models.py: TBD` | To be completed in M1 |
-| Abstract base class and polymorphism | `models.py: TBD` | To be completed in M1 |
-| Composition | `models.py: TBD` | To be completed in M1 |
-| Encapsulated state changes | `models.py: TBD` | To be completed in M1 |
-| Custom exceptions | `models.py: TBD` | To be completed in M1 |
-| JSON persistence | `demo.py: TBD` | To be completed in M1 |
-| Runnable demo | `demo.py: TBD` | To be completed in M1 |
-
-## Team contributions
-
-| Team member | Contribution |
-|---|---|
-| TBD | TBD |
